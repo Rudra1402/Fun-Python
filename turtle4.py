@@ -1,0 +1,12 @@
+import turtle
+r = turtle.Turtle()
+r.color("red")
+r.begin_fill()
+r.setheading(120)
+r.forward(100)
+r.circle(-25, 210)
+r.setheading(90)
+r.circle(-25, 210)
+r.forward(100)
+r.end_fill()
+turtle.done()
